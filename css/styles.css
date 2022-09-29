@@ -1,0 +1,39 @@
+.logo {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+}
+
+.hero {
+	display: block;
+	background-color: #2F303A;
+	width: 1600px;
+	height: 600px;
+	left: 0px;
+	top: 80px;
+
+}
+
+.nav-main-contacts {
+	display: block;
+	width: 1600px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	background: #FFFFFF;
+
+}
+
+.contacts {
+	width: 1600px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	display: block;
+	text-align: right;
+}
