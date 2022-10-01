@@ -31,10 +31,14 @@ body {
 
 }
 
-.link-page:hover,
-.contact:hover,
-.link-page:focus,
-.contact:focus {
+.social-links .link:hover,
+.contacts .contact:hover,
+.social-links .link:focus,
+.contacts .contact:focus,
+.address-list .contact:hover,
+.address-list .contact:focus,
+.address-list .address-map:focus,
+.address-list .address-map:hover {
 	color: #2196F3;
 }
 
