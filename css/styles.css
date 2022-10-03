@@ -47,7 +47,9 @@ body {
 	line-height: 31px;
 	letter-spacing: 0.03em;
 }
-
+.social-links .link.current {
+	color: var(--accent-color);
+}
 .address-logo {
 	color: #FFFFFF;
 }
@@ -65,8 +67,6 @@ body {
 	letter-spacing: 0.02em;
 
 }
-
-
 
 .contact {
 	font-family: 'Roboto';
@@ -141,7 +141,9 @@ body {
 	letter-spacing: 0.03em;
 }
 
+
 /* team-list */
+
 .team-list {
 	color: var(--background-team-color);
 }
@@ -175,6 +177,7 @@ body {
 }
 
 /* Footer */
+
 .footer-list {
 	background-color: var(--footer-background-color);
 }
