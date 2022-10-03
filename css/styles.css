@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196F3;
+	--background-color: #F5F5F5;
+	--background-team-color: #F5F4FA;
+	--footer-background-color: #2F303A;
+	--contact-color: #757575;
+}
+
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
-	color: #212121;
+	color: var(--primary-text-color);
+	background-color: var(--background-color);
 }
+
 /* hover focus */
 .social-links .link:hover,
 .contacts .contact:hover,
@@ -14,7 +27,7 @@ body {
 .address-list .footer-contact:focus,
 .address-list .address-map:focus,
 .address-list .address-map:hover {
-	color: #2196F3;
+	color: var(--accent-color);
 }
 
 
@@ -64,7 +77,7 @@ body {
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--contact-color);
 }
 
 /* Main */
@@ -98,6 +111,7 @@ body {
 
 
 /* Section Features */
+.features {}
 
 .features-title {
 	font-family: 'Roboto';
@@ -106,6 +120,7 @@ body {
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: var(--title-text-color);
 }
 
 
@@ -114,22 +129,24 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	color: #757575;
 }
 
 /* work-list  team-list */
-.team-title,
-.work-title {
+.title-head {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
-
+	color: var(--title-text-color);
 	letter-spacing: 0.03em;
 }
 
 /* team-list */
+.team-list {
+	color: var(--background-team-color);
+}
+
 .team-card-list {
 	background: #FFFFFF;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -144,6 +161,7 @@ body {
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--title-text-color);
 }
 
 .team-card-indent {
@@ -153,13 +171,13 @@ body {
 	line-height: 19px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--primary-text-color);
 
 }
 
 /* Footer */
 .footer-list {
-	background: #2F303A;
+	background-color: var(--footer-background-color);
 }
 
 .address-map {
