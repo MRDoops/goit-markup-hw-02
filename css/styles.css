@@ -45,6 +45,7 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
+
 .link {
 	color: var(--title-text-color);
 }
@@ -116,7 +117,7 @@ body {
 
 
 /* Section Features */
-.features {}
+
 
 .features-title {
 	font-family: 'Roboto';
