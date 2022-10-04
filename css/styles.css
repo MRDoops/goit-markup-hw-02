@@ -45,6 +45,9 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
+.link {
+	color: var(--title-text-color);
+}
 
 .social-links .link.current {
 	color: var(--accent-color);
@@ -59,13 +62,12 @@ body {
 }
 
 .social-links {
-	font-family: 'Roboto';
+
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-
 }
 
 .contact {
