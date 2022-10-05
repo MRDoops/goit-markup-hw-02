@@ -75,7 +75,6 @@ body {
 }
 
 .contact {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -87,7 +86,6 @@ body {
 /* Main */
 
 .title-text {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
@@ -102,7 +100,7 @@ body {
 }
 
 .button {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	text-decoration: none;
 	cursor: pointer;
@@ -123,7 +121,6 @@ body {
 
 
 .features-title {
-	font-family: 'Roboto';
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -134,7 +131,6 @@ body {
 
 
 .features-subtitle {
-	font-family: 'Roboto';
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -142,7 +138,6 @@ body {
 
 /* work-list  team-list */
 .title-head {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
@@ -165,7 +160,6 @@ body {
 }
 
 .team-subtitle {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -176,7 +170,6 @@ body {
 }
 
 .team-card-indent {
-	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
@@ -197,7 +190,6 @@ body {
 }
 
 .address-map {
-	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -208,7 +200,6 @@ body {
 }
 
 .footer-contact {
-	font-family: 'Roboto';
 	font-size: 14px;
 	line-height: 1.71;
 	text-decoration: none;
@@ -237,7 +228,6 @@ body {
 }
 
 .post-title {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
