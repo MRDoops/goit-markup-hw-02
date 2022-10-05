@@ -232,6 +232,13 @@ body {
 }
 
 /* portfolio */
+/* link-stile */
+.post-content-link {
+	text-decoration: none;
+}
+.post-content-link .post-title {
+	color: var(--primary-text-color);
+}
 
 /* search */
 .search-form {
