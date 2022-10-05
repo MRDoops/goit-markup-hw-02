@@ -8,6 +8,7 @@
 	--contact-color: #757575;
 	--white-color: #ffffff;
 	--footer-contact-color: rgba(255, 255, 255, 0.6);
+	--logo-color-black: #000000;
 }
 
 
@@ -41,16 +42,18 @@ body {
 
 /* Nav */
 .logo {
-	color: #000;
+	color: var(--logo-color-black);
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 
 .link {
 	color: var(--title-text-color);
+	text-decoration: none;
 }
 
 .social-links .link.current {
@@ -66,12 +69,16 @@ body {
 }
 
 .social-links {
-
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	list-style: none;
+}
+
+.contacts {
+	list-style: none;
 }
 
 .contact {
@@ -81,6 +88,7 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--contact-color);
+	text-decoration: none;
 }
 
 /* Main */
@@ -118,7 +126,9 @@ body {
 
 
 /* Section Features */
-
+.features-list {
+	list-style: none;
+}
 
 .features-title {
 	font-weight: 700;
@@ -127,6 +137,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--title-text-color);
+
 }
 
 
@@ -137,6 +148,10 @@ body {
 }
 
 /* work-list  team-list */
+.work-list-colum {
+	list-style: none;
+}
+
 .title-head {
 	font-style: normal;
 	font-weight: 700;
@@ -180,6 +195,9 @@ body {
 }
 
 /* Footer */
+.addres-list-colum {
+	list-style: none;
+}
 
 .footer-list {
 	background-color: var(--footer-background-color);
@@ -205,6 +223,7 @@ body {
 	text-decoration: none;
 	letter-spacing: 0.03em;
 	color: var(--footer-contact-color);
+	text-decoration: none;
 }
 
 /* portfolio */
@@ -216,11 +235,13 @@ body {
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
+	list-style: none;
 }
 
 /* contents */
 .post-content {
-	background-color: var(--white-color)
+	background-color: var(--white-color);
+	list-style: none;
 }
 
 .post-subtitle {
